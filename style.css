@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #f8f9fa;
+    background: #fff7ed;
     color: #333;
 }
 
@@ -26,16 +26,14 @@ body {
 
 /* Navigasi */
 .box1 {
-    background: #3B82F6;
-    height: 50px;
+    background: #F97316;
+    height: 60px;
     justify-content: space-between;
     padding: 0 30px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
-.box1 h2 {
-    font-size: 20px;
-    color: white;
+.box1 h2 img {
+    height: 40px;
 }
 
 .box1 nav ul {
@@ -52,15 +50,15 @@ body {
 }
 
 .box1 nav ul li a:hover {
-    color: palevioletred;
+    color: #FFD700;
 }
 
 /* Hero */
 .box2 {
-    background: palevioletred;
+    background: linear-gradient(135deg, #FDBA74, #FB923C);
     flex-direction: column;
     font-size: 24px;
-    color: #1E3A8A;
+    color: #7C2D12;
     text-align: center;
     padding: 80px 20px;
 }
@@ -72,10 +70,10 @@ body {
 
 /* Konten Utama */
 .box3 {
-    background: #6EE7B7;
+    background: #FFD8A8;
     flex-direction: column;
     align-items: flex-start;
-    color: #1E3A8A;
+    color: #7C2D12;
     border-radius: 10px;
     margin: 20px;
     padding: 20px;
@@ -87,7 +85,7 @@ body {
 
 /* Flexbox Section */
 .box4 {
-    background: #D8B4FE;
+    background: #E9D5FF;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -98,23 +96,31 @@ body {
 .item {
     width: 120px;
     height: 120px;
-    background: #60A5FA;
+    background: #FB923C;
     color: white;
     font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    transition: transform 0.3s, background 0.3s;
 }
 
 .item:hover {
-    background: #2563EB;
+    transform: scale(1.1);
+    background: #EA580C;
 }
 
 /* Footer */
 footer {
-    background: #1E40AF;
+    background: #F97316;
     color: white;
     text-align: center;
-    padding: 10px
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 5px 0;
 }

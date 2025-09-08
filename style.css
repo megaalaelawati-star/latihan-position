@@ -1,88 +1,120 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-        }
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    color: #333;
+}
 
-        .container {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-        }
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
-        .box {
-            width: 100%;
-            height: 500px;
-            color: black;
-            font-weight: bold;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
 
-        /* Kotak Navigasi */
-        .box1 {
-            background: #6C9BCF;
-            height: 60px;
-            justify-content: space-around;
-        }
+/* Navigasi */
+.box1 {
+    background: #3B82F6;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 30px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
 
-        .box1 nav ul {
-            list-style: none;
-            display: flex;
-            gap: 20px;
-        }
+.box1 h2 {
+    font-size: 20px;
+    color: white;
+}
 
-        .box1 nav ul li {
-            display: inline;
-        }
+.box1 nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
 
-        .box1 nav ul li a {
-            color: black;
-            text-decoration: none;
-            font-weight: bold;
-        }
+.box1 nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
 
-        /* Kotak Hero */
-        .box2 {
-            background: #F5B7B1;
-            flex-direction: column;
-            font-size: 24px;
-        }
+.box1 nav ul li a:hover {
+    color: palevioletred;
+}
 
-        /* Kotak Body */
-        .box3 {
-            background: #A9DFBF;
-            height: auto;
-            min-height: 300px;
-            flex-direction: column;
-            padding: 20px;
-            color: black;
-            align-items: flex-start;
-        }
+/* Hero */
+.box2 {
+    background: palevioletred;
+    flex-direction: column;
+    font-size: 24px;
+    color: #1E3A8A;
+    text-align: center;
+    padding: 80px 20px;
+}
 
-        /* Kotak Flexbox Baru */
-        .box4 {
-            background: #E8DAEF;
-            height: auto;
-            padding: 40px;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
+.box2 h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
 
-        .item {
-            width: 100px;
-            height: 100px;
-            background: #5DADE2;
-            color: white;
-            font-size: 24px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 10px;
-        }
+/* Konten Utama */
+.box3 {
+    background: #6EE7B7;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #1E3A8A;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.box3 h2 {
+    margin-bottom: 15px;
+}
+
+/* Flexbox Section */
+.box4 {
+    background: #D8B4FE;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.item {
+    width: 120px;
+    height: 120px;
+    background: #60A5FA;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.item:hover {
+    background: #2563EB;
+}
+
+/* Footer */
+footer {
+    background: #1E40AF;
+    color: white;
+    text-align: center;
+    padding: 10px
+}

@@ -17,7 +17,7 @@
         .box {
             width: 100%;
             height: 1000px;
-            color: white;
+            color: black;
             font-weight: bold;
             display: flex;
             justify-content: center;
@@ -26,7 +26,7 @@
 
         /* Kotak Navigasi */
         .box1 {
-            background: navy;
+            background: #6C9BCF;
             height: 60px;
             justify-content: space-around;
         }
@@ -42,21 +42,21 @@
         }
 
         .box1 nav ul li a {
-            color: white;
+            color: black;
             text-decoration: none;
             font-weight: bold;
         }
 
         /* Kotak Hero */
         .box2 {
-            background: maroon;
+            background: #F5B7B1;
             flex-direction: column;
             font-size: 24px;
         }
 
         /* Kotak Body */
         .box3 {
-            background: limegreen;
+            background: #A9DFBF;
             height: auto;
             min-height: 300px;
             flex-direction: column;
